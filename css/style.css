@@ -340,7 +340,8 @@ fieldset[disabled] .s-btn {
   width: 40%;
   height: auto;
   margin: 0 auto;
-  opacity: 1;
+  opacity: 0.4;
+  filter: grayscale(100%);
   cursor: pointer;
   transition-duration: 200ms;
   transition-property: all;
@@ -349,6 +350,7 @@ fieldset[disabled] .s-btn {
 
 .s-clients-v1:hover {
   opacity: .8;
+  filter: grayscale(0%);
   transition-duration: 200ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
