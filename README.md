@@ -8,4 +8,4 @@ IEEE at JIIT is a student branch run by students of different branches of B.Tech
 
 Through events, activities and projects, IEEE offers multiple educational and professional skills.
 
-#### Email us at: ieeesbjiitweb@gmail.com
+### Email us at: ieeesbjiitweb@gmail.com
