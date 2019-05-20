@@ -1,5 +1,5 @@
 # IEEE SB JIIT Noida (Sec 62)
-IEEE SB JIIT Noida - Website
+IEEE SB JIIT Noida Website
 
 ## About IEEE SB JIIT Noida:
 
