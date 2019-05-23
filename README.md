@@ -1,4 +1,4 @@
-# IEEE SB JIIT Noida (Sec 62)
+# IEEE SB JIIT Noida (Sector 62)
 IEEE SB JIIT Noida Website
 
 ## About IEEE SB JIIT Noida:
