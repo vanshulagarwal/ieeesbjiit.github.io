@@ -85,8 +85,6 @@ section {
     0 0 0.25rem 0.25rem var(--glow-spread-color),
     inset 0 0 .25rem .25rem var(--glow-color);
   filter: blur(0.5rem);
-
-
 }
 
 .honeycomb-cell::before,

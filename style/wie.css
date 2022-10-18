@@ -1,0 +1,154 @@
+#WIE {
+    padding-top: 1.5rem;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+/* #WIE h2 {
+    position: relative;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: #222;
+    display: inline;
+}
+
+#WIE h2::before {
+    content: attr(data-text);
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 6.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #ffff;
+    animation: animate 3s linear infinite;
+} */
+
+.wie-logo-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#heading-wie {
+    margin-top: 2rem;
+    margin-left: 15rem;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 1rem auto;
+    text-align: center;
+    display: flow-root;
+}
+
+#Wie-logo {
+    align-items: center;
+    margin: 0.25rem auto 0 auto;
+    width: 9rem;
+    height: 8rem;
+
+}
+
+#wie-list-card {
+    margin: 4rem auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#wie-list-card li {
+    padding: 1rem 2rem;
+}
+
+.wie-card {
+    height: 25rem;
+    width: 20rem;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 1em;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+
+}
+
+/*Image*/
+.wie-card-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: #0a3394;
+    object-fit:fill;
+    background-size:cover;
+    background-repeat: none; 
+}
+
+.c1 {
+    background-image: url("../images/WIE/WhatsApp\ Image\ 2022-10-16\ at\ 23.36.23.jpeg");
+}
+
+.c2 {
+    background-image: url("../images/WIE/WhatsApp\ Image\ 2022-10-16\ at\ 23.36.23\ \(1\).jpeg");
+}
+
+.c3 {
+    background-image: url("../images/WIE/WhatsApp\ Image\ 2022-10-16\ at\ 23.36.39.jpeg");
+}
+/*Description */
+.wie-card-description {
+    display: flex;
+    position: absolute;
+    gap: 1em;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    height: 80%;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+}
+
+/*Text*/
+.wie-text-title {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: black;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.wie-text-body {
+    padding: 0.5rem;
+    color: rgb(50, 48, 48);
+    font-size: 1em;
+    line-height: 150%;
+}
+
+
+/* Hover states */
+.wie-card:hover .wie-card-description {
+    transform: translateY(100%);
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    #heading-wie {
+
+        margin-left: 0rem;
+
+    }
+
+}
